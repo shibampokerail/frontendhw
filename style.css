@@ -3,7 +3,6 @@
     padding: 0;
     background-color: black;
 }
-
 @media (min-width: 1024px) {
     .content {
         padding: 20px;
@@ -427,6 +426,17 @@
         
     }
 
+    .news {
+        
+        padding: 20px;
+        background-color: #080808; 
+        border: 1px solid #ffffff;
+        margin: 20px;
+        color: white;
+        transition: 0.3s ease;
+        overflow:hidden;
+    }
+
     
     .footer-menu {
         display: grid;
@@ -531,7 +541,26 @@
 
     }
 
-    
+    .testimonial{
+        color: white; 
+        z-index: 1;
+        position: absolute;
+        margin: 20vh 20vw;
+        opacity: 0.8;
+        font-size: 50px;
+        font-style: italic;
+    } 
+
+    .newstitle{
+        z-index: 1;
+        position: absolute;
+        margin: 10vh 10vw;
+        opacity: 0.8;
+        font-size: 30px;
+        color: white;
+        padding: 15px;
+    }
+
 
 }
 
