@@ -3,6 +3,7 @@
     padding: 0;
     background-color: black;
 }
+
 @media (min-width: 1024px) {
     .content {
         padding: 20px;
